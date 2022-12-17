@@ -19,22 +19,26 @@ The model consists of the following components:
 
 **Policy** -- A policy defines the learning agent's way of behaving at a given time. It is a mapping from perceived states of the environment to actions to be taken when in those states.
 
-Agent's Gameplay before training (10-40 iterations):
+Agent's Gameplay before training (around 10-40 iterations):
 
 ![myAgentPlays-7](https://user-images.githubusercontent.com/61733487/208226031-7aeaae0a-75c0-470f-b1a0-c547336cbabb.gif)
 
 At this point the agent doesn't know much. It's trying different things and learning what works, and which actions lets it earn some rewards.
 
-Agent's Gameplay mid-training (150,000 iterations):
+Agent's Gameplay mid-training (near 150,000 iterations):
 
 ![myAgentPlays_3](https://user-images.githubusercontent.com/61733487/208226207-b470cea0-9af6-451f-867c-0d6cb8543168.gif)
 
 The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay slive by evading the enemy fire.
 
-Agent's Gameplay after training (300,000 iterations):
+Agent's Gameplay after training (over 300,000 iterations):
 
 ![myAgentPlays_10](https://user-images.githubusercontent.com/61733487/208226094-776275b4-0219-4a16-9f8d-9a5e26614e9b.gif)
 
 At this point in the training, we have reached Human-Level Control in the Gameplay.
 
 We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire, which the agent hasn't adapted to yet. These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
+
+References:
+[1] https://www.nature.com/articles/nature14236
+[2] Hands-On Machine Learning with Scikit-Learn and TensorFlow, by Aurélien Géron
