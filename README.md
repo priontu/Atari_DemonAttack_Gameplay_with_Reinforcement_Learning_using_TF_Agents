@@ -40,5 +40,7 @@ At this point in the training, we have reached Human-Level Control in the Gamepl
 We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire, which the agent hasn't adapted to yet. These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
 
 References:
+
 [1] https://www.nature.com/articles/nature14236
+
 [2] Hands-On Machine Learning with Scikit-Learn and TensorFlow, by Aurélien Géron
