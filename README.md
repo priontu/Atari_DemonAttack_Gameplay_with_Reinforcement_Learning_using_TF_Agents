@@ -1,5 +1,5 @@
 # Atari_DemonAttack_Gameplay_with_Reinforcement_Learning_using_TF_Agents
-Implementing Reinforcement Learning to develop an Agent that teaches itself to play the DemonAttack Atari Game. The Agent was developed using tensorflow, TF-Agents and OpenAI Gym.
+In this project, we implement Reinforcement Learning to develop an Agent that teaches itself to play the DemonAttack Atari Game. The project was developed using tensorflow, TF-Agents and OpenAI Gym.
 
 Reinforcement learning (RL) is the area of machine learning concerned with intelligent agents that take actions in an environment in order to maximize the notion of cumulative reward.
 
