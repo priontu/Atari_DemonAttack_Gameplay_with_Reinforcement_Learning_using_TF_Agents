@@ -19,17 +19,17 @@ The model consists of the following components:
 
 **Policy** -- A policy defines the learning agent's way of behaving at a given time. It is a mapping from perceived states of the environment to actions to be taken when in those states.
 
-Agent's Gameplay before training:
+Agent's Gameplay before training (10-40 iterations):
 
 ![myAgentPlays-7](https://user-images.githubusercontent.com/61733487/208226031-7aeaae0a-75c0-470f-b1a0-c547336cbabb.gif)
 
-Agent's Gameplay mid-training:
+Agent's Gameplay mid-training (150,000 iterations):
 
 ![myAgentPlays_3](https://user-images.githubusercontent.com/61733487/208226207-b470cea0-9af6-451f-867c-0d6cb8543168.gif)
 
 The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay slive by evading the enemy fire.
 
-Agent's Gameplay after training:
+Agent's Gameplay after training (300,000 iterations):
 
 ![myAgentPlays_10](https://user-images.githubusercontent.com/61733487/208226094-776275b4-0219-4a16-9f8d-9a5e26614e9b.gif)
 
