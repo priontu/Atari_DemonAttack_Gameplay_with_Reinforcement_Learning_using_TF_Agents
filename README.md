@@ -7,17 +7,17 @@ For this project, we use the OpenAI Gym Atari environment, and we train an agent
 
 The model consists of the following components:
 
-Agent -- The agent is the decision-maker (bot) that interacts with the environment and learns the decisions that maximize the rewards.
+**Agent** -- The agent is the decision-maker (bot) that interacts with the environment and learns the decisions that maximize the rewards.
 
-Environment -- The environment is the space with which the agent interacts to obtain the rewards. 
+**Environment** -- The environment is the space with which the agent interacts to obtain the rewards. 
 
-Observation space -- This is the current state of the environment that the agent observes.
+**Observation space** -- This is the current state of the environment that the agent observes.
 
-Action space -- This is the decision that the robot takes at each step.
+**Action space** -- This is the decision that the robot takes at each step.
 
-Reward -- In this case, the score of the game, that the agent will try to maximize.
+**Reward** -- In this case, the score of the game, that the agent will try to maximize.
 
-Policy -- A policy defines the learning agent's way of behaving at a given time. It is a mapping from perceived states of the environment to actions to be taken when in those states.
+**Policy** -- A policy defines the learning agent's way of behaving at a given time. It is a mapping from perceived states of the environment to actions to be taken when in those states.
 
 Agent's Gameplay before training:
 
