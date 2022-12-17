@@ -3,7 +3,7 @@ In this project, we implement Reinforcement Learning to develop an Agent that te
 
 Reinforcement learning (RL) is the area of machine learning concerned with intelligent agents that take actions in an environment in order to maximize the notion of cumulative reward.
 
-For this project, we use the OpenAI Gym Atari environment, and we train an agent to play efficiently in this environment.
+For this project, we use the OpenAI Gym Atari environment, and we train an agent to play efficiently in this environment. The goal is to develop an agent that can exercise Human-Level Control.
 
 The model consists of the following components:
 
