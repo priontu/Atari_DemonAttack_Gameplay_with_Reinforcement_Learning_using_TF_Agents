@@ -23,6 +23,8 @@ Agent's Gameplay before training (10-40 iterations):
 
 ![myAgentPlays-7](https://user-images.githubusercontent.com/61733487/208226031-7aeaae0a-75c0-470f-b1a0-c547336cbabb.gif)
 
+At this point the agent doesn't know much. It's trying different things and learning what works, and which actions lets it earn some rewards.
+
 Agent's Gameplay mid-training (150,000 iterations):
 
 ![myAgentPlays_3](https://user-images.githubusercontent.com/61733487/208226207-b470cea0-9af6-451f-867c-0d6cb8543168.gif)
