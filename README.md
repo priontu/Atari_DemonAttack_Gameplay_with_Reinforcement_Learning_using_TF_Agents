@@ -29,7 +29,7 @@ Agent's Gameplay mid-training (near 150,000 iterations):
 
 ![myAgentPlays_3](https://user-images.githubusercontent.com/61733487/208226207-b470cea0-9af6-451f-867c-0d6cb8543168.gif)
 
-The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay slive by evading the enemy fire.
+The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay alive by evading the enemy fire.
 
 Agent's Gameplay after training (over 300,000 iterations):
 
