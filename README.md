@@ -1,4 +1,4 @@
-# Atari_DemonAttack_Gameplay_with_Reinforcement_Learning_using_TF_Agents
+# Atari_DemonAttack_Gameplay_with_Reinforcement_Learning_using_TF_Agents (Developed on Google Cloud)
 In this project, we implement Reinforcement Learning to develop an Agent that teaches itself to play the DemonAttack Atari Game. The project was developed using tensorflow, TF-Agents and OpenAI Gym.
 
 Reinforcement learning (RL) is the area of machine learning concerned with intelligent agents that take actions in an environment in order to maximize the notion of cumulative reward.
@@ -38,6 +38,9 @@ Agent's Gameplay after training (over 300,000 iterations):
 At this point in the training, we have reached Human-Level Control in the Gameplay.
 
 We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire, which the agent hasn't adapted to yet. These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
+
+Google Cloud Machine Configuration:
+![image](https://user-images.githubusercontent.com/61733487/208981272-5a3087c9-23a4-48b2-913d-8fdd9d49c993.png)
 
 References:
 
